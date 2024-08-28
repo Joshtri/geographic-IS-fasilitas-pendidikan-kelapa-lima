@@ -1,6 +1,6 @@
 // const { model } = require('mongoose');
 const mysql = require('mysql');
-
+require("dotenv").config();
 
 //config database
 

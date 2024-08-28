@@ -37,11 +37,11 @@
             <tbody>
                 <% locations.forEach((location, index)=> { %>
                 <tr>
-                    <td><%= index + 1%></td>
-                    <td><%= location.name %></td>
+                    <td><%= index + 1 %></td>
+                    <td class="is-capitalized"><%= location.name %></td>
                     <td><%= location.lat %></td>
                     <td><%= location.lng %></td>
-                    <td>
+                        <td>
                         
                         <div class="buttons">
                             <button class="button is-primary is-small" title="Edit">
